@@ -1,0 +1,9 @@
+[package]
+name = "libchai-pfpc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = "4.5.53"
+libchai = { version = "0.3.0", path = "../libchai" }
+serde = "1.0.228"
